@@ -67,6 +67,66 @@
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
         };
+
+        k1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <0 35>;
+        };
+
+        k2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <35 1>;
+        };
+
+        k3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <2 35>;
+        };
+
+        k4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <3 35>;
+        };
+
+        k5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <4 35>;
+        };
+
+        k6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <5 35>;
+        };
+
+        k7 {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <35 6>;
+        };
+
+        k8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <35 7>;
+        };
+
+        k9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <35 7>;
+        };
+
+        k0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <9 35>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <35 15>;
+        };
+
+        plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <35 16>;
+        };
     };
 
     behaviors {
